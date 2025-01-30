@@ -38,9 +38,9 @@ export default function Navbar() {
           {isOpen ? <CloseOutlinedIcon /> : <MenuOutlinedIcon />}
         </button>
         <ul
-          className={`md:flex justify-center items-center md:gap-5 absolute md:relative top-16 md:top-0 left-0 w-full md:w-auto dark:shadow-white sm:bg-transparent p-5 md:p-0 shadow-md md:shadow-none transition-all duration-500 ${
+          className={`md:flex bg-white  justify-center items-center md:gap-5 absolute md:relative top-16 md:top-0 left-0 w-full md:w-auto dark:shadow-white sm:bg-transparent p-5 md:p-0 shadow-md md:shadow-none transition-all duration-500 ${
             isOpen
-              ? "md:opacity-100 md:scale-100"
+              ? "md:opacity-100 md:scale-100 dark:bg-black"
               : "opacity-0 scale-95 pointer-events-none md:opacity-100 md:pointer-events-auto"
           }`}
         >
