@@ -2,13 +2,25 @@ import React from "react";
 import profile from "../assets/me.jpeg";
 import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
 import CloudDownloadIcon from "@mui/icons-material/CloudDownload";
+import { Typewriter } from "react-simple-typewriter";
 export default function SectionOne() {
   return (
     <div className="sm:mx-20 mx-5 text-black flex mt-20 gap-16 items-center flex-wrap md:flex-nowrap dark:text-white">
       <div className=" ">
         <h1 className=" text-4xl sm:text-5xl md:text-7xl font-bold  ">
           <span className="bg-gradient-to-r from-yellow-400 via-orange-400 bg-clip-text text-transparent to-red-600 ">
-            I build fullstack
+            I build{" "}
+            <span>
+              <Typewriter
+                words={["frontend", "backend", "fullstack"]}
+                loop={5}
+                cursor
+                cursorStyle="|"
+                typeSpeed={70}
+                deleteSpeed={50}
+                delaySpeed={1000}
+              />
+            </span>
           </span>
         </h1>
         <h1 className="text-4xl sm:text-5xl md:text-7xl font-bold mx-auto">
