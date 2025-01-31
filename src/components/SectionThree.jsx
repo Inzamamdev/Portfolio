@@ -1,6 +1,9 @@
 import React from "react";
 import ArrowRightAltOutlinedIcon from "@mui/icons-material/ArrowRightAltOutlined";
 import OpenInNewOutlinedIcon from "@mui/icons-material/OpenInNewOutlined";
+import arise from "../assets/arise.webp";
+import todo from "../assets/todo.webp";
+import trust from "../assets/trust-vibes.webp";
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
@@ -50,12 +53,7 @@ export default function SectionThree() {
           </p>
 
           <div className="max-w-96 sm:max-w-xl  rounded shadow-md dark:shadow-white dark:shadow-sm">
-            <img
-              src="/assets/arise.webp"
-              alt=""
-              loading="lazy"
-              className="rounded-t"
-            />
+            <img src={arise} alt="" loading="lazy" className="rounded-t" />
             <div className="flex justify-between mx-2 my-2 items-center">
               <p className="text-xl font-bold">Arise</p>
               <a href="https://arise-hazel.vercel.app/">
@@ -91,12 +89,7 @@ export default function SectionThree() {
         </div>
         <div>
           <div className="max-w-96 sm:max-w-xl  rounded shadow-md dark:shadow-white dark:shadow-sm mb-20">
-            <img
-              src="/assets/todo.webp"
-              alt=""
-              loading="lazy"
-              className="rounded-t"
-            />
+            <img src={todo} alt="" loading="lazy" className="rounded-t" />
             <div className="flex justify-between mx-2 my-2 items-center">
               <p className="text-xl font-bold">Todo</p>
               <a href="https://quad-b-todo-theta.vercel.app/">
@@ -119,12 +112,7 @@ export default function SectionThree() {
           </div>
 
           <div className="max-w-96 sm:max-w-xl  rounded shadow-md dark:shadow-white dark:shadow-sm">
-            <img
-              src="/assets/trust-vibes.webp"
-              alt=""
-              loading="lazy"
-              className="rounded-t"
-            />
+            <img src={trust} alt="" loading="lazy" className="rounded-t" />
             <div className="flex justify-between mx-2 my-2 items-center">
               <p className="text-xl font-bold">Trust Vibes</p>
               <a href="https://trust-vibes.vercel.app/">

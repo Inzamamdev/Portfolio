@@ -69,7 +69,7 @@ export default function SectionOne() {
             <span className="flex items-center justify-center text-white">
               <CloudDownloadIcon className="mr-1" />
               <a
-                href="/assets/inzamamresume_v1.pdf"
+                href="/inzamamresume_v1.pdf"
                 download="Inzamam_Shaikh_Resume.pdf"
               >
                 Download CV
