@@ -5,7 +5,7 @@ import { Typewriter } from "react-simple-typewriter";
 import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-
+import profile from "../assets/me.jpeg";
 export default function SectionOne() {
   gsap.registerPlugin(ScrollTrigger);
 
@@ -79,7 +79,7 @@ export default function SectionOne() {
         </div>
       </div>
 
-      <img src="/assets/me.jpeg" alt="" className="rounded-full w-96 mx-auto" />
+      <img src={profile} alt="" className="rounded-full w-96 mx-auto" />
     </div>
   );
 }
