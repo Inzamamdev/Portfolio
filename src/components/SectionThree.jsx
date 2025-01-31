@@ -6,7 +6,7 @@ import Todo from "../assets/todo.webp";
 import Trust from "../assets/trust-vibes.webp";
 export default function SectionThree() {
   return (
-    <div className="sm:mx-20 mx-5 text-black dark:text-white">
+    <div className="sm:mx-20 mx-5 text-black dark:text-white mb-20">
       {" "}
       <h6 className="text-2xl font-bold text-center mb-5">
         <span className="bg-gradient-to-r from-yellow-400 via-orange-400 bg-clip-text text-transparent to-red-600">
