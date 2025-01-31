@@ -32,7 +32,7 @@ export default function Navbar({
 
   const scrollToSection = (sectionRef) => {
     sectionRef.current?.scrollIntoView({ behavior: "smooth" });
-    // Close menu on mobile after clicking
+    setIsOpen(false);
   };
   return (
     <div className="flex justify-between items-center py-5 sm:mx-20 mx-5 dark:text-white font-bold">
