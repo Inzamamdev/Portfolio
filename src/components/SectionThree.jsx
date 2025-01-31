@@ -51,7 +51,7 @@ export default function SectionThree() {
 
           <div className="max-w-96 sm:max-w-xl  rounded shadow-md dark:shadow-white dark:shadow-sm">
             <img
-              src={import.meta.env.VITE_API_URL + `/assets/arise.webp`}
+              src="./assets/arise.webp"
               alt=""
               loading="lazy"
               className="rounded-t"
@@ -92,7 +92,7 @@ export default function SectionThree() {
         <div>
           <div className="max-w-96 sm:max-w-xl  rounded shadow-md dark:shadow-white dark:shadow-sm mb-20">
             <img
-              src={import.meta.env.VITE_API_URL + `/assets/todo.webp`}
+              src="./assets/todo.webp"
               alt=""
               loading="lazy"
               className="rounded-t"
@@ -120,7 +120,7 @@ export default function SectionThree() {
 
           <div className="max-w-96 sm:max-w-xl  rounded shadow-md dark:shadow-white dark:shadow-sm">
             <img
-              src={import.meta.env.VITE_API_URL + `/assets/trust-vibes.webp`}
+              src="./assets/trust-vibes.webp"
               alt=""
               loading="lazy"
               className="rounded-t"
