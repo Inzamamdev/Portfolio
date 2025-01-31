@@ -4,6 +4,7 @@ import SectionOne from "./components/SectionOne";
 import SectionTwo from "./components/SectionTwo";
 import SectionThree from "./components/SectionThree";
 import SectionFour from "./components/SectionFour";
+import SectionFive from "./components/SectionFive";
 function App() {
   const [count, setCount] = useState(0);
 
@@ -15,6 +16,7 @@ function App() {
         <SectionTwo />
         <SectionThree />
         <SectionFour />
+        <SectionFive />
       </div>
     </>
   );

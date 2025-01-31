@@ -5,7 +5,7 @@ import CloudDownloadIcon from "@mui/icons-material/CloudDownload";
 import { Typewriter } from "react-simple-typewriter";
 export default function SectionOne() {
   return (
-    <div className="sm:mx-20 mx-5 text-black flex my-20 gap-16 items-center flex-wrap md:flex-nowrap dark:text-white">
+    <div className="sm:mx-20 mx-5 text-black flex my-20 gap-16 items-center flex-wrap md:flex-nowrap dark:text-white mb-40">
       <div className=" ">
         <h1 className=" text-4xl sm:text-5xl md:text-7xl font-bold  ">
           <span className="bg-gradient-to-r from-yellow-400 via-orange-400 bg-clip-text text-transparent to-red-600 ">

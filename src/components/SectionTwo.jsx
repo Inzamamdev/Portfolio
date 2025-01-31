@@ -5,7 +5,7 @@ import SentimentSatisfiedOutlinedIcon from "@mui/icons-material/SentimentSatisfi
 import Skills from "./Skills";
 export default function SectionTwo() {
   return (
-    <div className="sm:mx-20 mx-5 text-black dark:text-white mb-20">
+    <div className="sm:mx-20 mx-5 text-black dark:text-white mb-56">
       <h6 className="text-2xl font-bold text-center mb-5">
         <span className="bg-gradient-to-r from-yellow-400 via-orange-400 bg-clip-text text-transparent to-red-600">
           SERVICES

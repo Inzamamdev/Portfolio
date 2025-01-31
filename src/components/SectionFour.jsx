@@ -10,7 +10,7 @@ export default function SectionFour() {
       <p className=" text-gray-500 my-10">
         Ready to create something amazing? Let's hop on a call.
       </p>
-      <div className="flex items-center justify-center font-bold text-white ">
+      <div className="flex items-center justify-center font-bold text-white sm:mx-20 mx-5">
         <span className="flex items-center bg-[#141414] py-1.5 px-5 rounded-md">
           <RxLinkedinLogo fontSize={18} className=" mr-1" /> LinkedIn
         </span>
