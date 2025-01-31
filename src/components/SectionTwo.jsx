@@ -3,6 +3,13 @@ import SupportAgentIcon from "@mui/icons-material/SupportAgent";
 import TerminalOutlinedIcon from "@mui/icons-material/TerminalOutlined";
 import SentimentSatisfiedOutlinedIcon from "@mui/icons-material/SentimentSatisfiedOutlined";
 export default function SectionTwo() {
+  const solutions = [
+    "Custom Web Development",
+    "Real-time Applications",
+    "Frontend Development",
+    "Backend Development",
+    "Fullstack Development",
+  ];
   return (
     <div className="sm:mx-20 mx-5 text-black dark:text-white">
       <h6 className="text-2xl font-bold text-center mb-5">
@@ -15,8 +22,8 @@ export default function SectionTwo() {
       </h2>
 
       <div className="flex text-black dark:text-white mx-auto gap-16 flex-wrap md:flex-nowrap ">
-        <div>
-          <div className="flex justify-center sm:block sm:justify-normal">
+        <div className=" ">
+          <div className="">
             <SupportAgentIcon
               sx={{ fontSize: "120px" }}
               className="text-gray-500"
@@ -38,7 +45,7 @@ export default function SectionTwo() {
           </ul>
         </div>
         <div>
-          <div className="flex justify-center sm:block sm:justify-normal">
+          <div className="">
             <TerminalOutlinedIcon
               sx={{ fontSize: "120px" }}
               className="text-gray-500"
@@ -60,7 +67,7 @@ export default function SectionTwo() {
           </ul>
         </div>
         <div>
-          <div className="flex justify-center sm:block sm:justify-normal">
+          <div className="">
             <SentimentSatisfiedOutlinedIcon
               sx={{ fontSize: "120px" }}
               className="text-gray-500"
