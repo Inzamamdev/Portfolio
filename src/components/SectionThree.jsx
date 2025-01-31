@@ -26,7 +26,7 @@ export default function SectionThree() {
             </span>
           </p>
 
-          <div className="max-w-96 sm:max-w-xl  rounded shadow-md dark:shadow-white">
+          <div className="max-w-96 sm:max-w-xl  rounded shadow-md dark:shadow-white dark:shadow-sm">
             <img src={Arise} alt="" loading="lazy" className="rounded-t" />
             <div className="flex justify-between mx-2 my-2 items-center">
               <p className="text-xl font-bold">Arise</p>
@@ -59,7 +59,7 @@ export default function SectionThree() {
           </div>
         </div>
         <div>
-          <div className="max-w-96 sm:max-w-xl  rounded shadow-md dark:shadow-white mb-20">
+          <div className="max-w-96 sm:max-w-xl  rounded shadow-md dark:shadow-white dark:shadow-sm mb-20">
             <img src={Todo} alt="" loading="lazy" className="rounded-t" />
             <div className="flex justify-between mx-2 my-2 items-center">
               <p className="text-xl font-bold">Todo</p>
@@ -73,13 +73,14 @@ export default function SectionThree() {
             <div className="mx-2">
               <div className=" mt-3 w-full h-[1px] bg-gray-600"></div>
               <p className=" py-3 text-black dark:text-gray-500">
-                Arise is a productivity app where users join rooms, complete
-                tasks, earn points, and track progress on leaderboards.
+                I built a To-Do app in React with Redux in two days,
+                implementing task management features with efficient state
+                handling.
               </p>
             </div>
           </div>
 
-          <div className="max-w-96 sm:max-w-xl  rounded shadow-md dark:shadow-white">
+          <div className="max-w-96 sm:max-w-xl  rounded shadow-md dark:shadow-white dark:shadow-sm">
             <img src={Trust} alt="" loading="lazy" className="rounded-t" />
             <div className="flex justify-between mx-2 my-2 items-center">
               <p className="text-xl font-bold">Trust Vibes</p>
@@ -96,8 +97,9 @@ export default function SectionThree() {
             <div className="mx-2">
               <div className=" mt-3 w-full h-[1px] bg-gray-600"></div>
               <p className=" py-3 text-black dark:text-gray-500">
-                Arise is a productivity app where users join rooms, complete
-                tasks, earn points, and track progress on leaderboards.
+                A platform that helps small websites collect and display
+                customer reviews. Users can generate feedback forms, gather
+                responses, and showcase testimonials via iframes.
               </p>
             </div>
           </div>
