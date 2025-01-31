@@ -4,9 +4,35 @@ import Arise from "../assets/arise.webp";
 import OpenInNewOutlinedIcon from "@mui/icons-material/OpenInNewOutlined";
 import Todo from "../assets/todo.webp";
 import Trust from "../assets/trust-vibes.webp";
+import { useEffect, useRef } from "react";
+import { gsap } from "gsap";
+import { ScrollTrigger } from "gsap/ScrollTrigger";
 export default function SectionThree() {
+  const boxRef = useRef(null);
+
+  useEffect(() => {
+    gsap.fromTo(
+      boxRef.current,
+      { opacity: 0, y: -70 },
+      {
+        opacity: 1,
+        y: 0,
+        duration: 1.5,
+        ease: "power3.out",
+        scrollTrigger: {
+          trigger: boxRef.current,
+          start: "top 80%", // Animation starts when the section is more visible
+          toggleActions: "play none none none", // Plays once on scroll into view
+        },
+      }
+    );
+  }, []);
+
   return (
-    <div className="sm:mx-20 mx-5 text-black dark:text-white mb-72">
+    <div
+      ref={boxRef}
+      className="sm:mx-20 mx-5 text-black dark:text-white mb-72"
+    >
       {" "}
       <h6 className="text-2xl font-bold text-center mb-5">
         <span className="bg-gradient-to-r from-yellow-400 via-orange-400 bg-clip-text text-transparent to-red-600">
@@ -30,7 +56,10 @@ export default function SectionThree() {
             <img src={Arise} alt="" loading="lazy" className="rounded-t" />
             <div className="flex justify-between mx-2 my-2 items-center">
               <p className="text-xl font-bold">Arise</p>
-              <OpenInNewOutlinedIcon />
+              <a href="https://arise-hazel.vercel.app/">
+                {" "}
+                <OpenInNewOutlinedIcon />
+              </a>
             </div>
             <div className="flex items-center flex-wrap md:flex-nowrap gap-2">
               <p className=" py-0.5 mx-2 px-5 bg-[#1e282e] text-[#95d5fc] text-sm font-bold rounded-sm">
@@ -63,7 +92,9 @@ export default function SectionThree() {
             <img src={Todo} alt="" loading="lazy" className="rounded-t" />
             <div className="flex justify-between mx-2 my-2 items-center">
               <p className="text-xl font-bold">Todo</p>
-              <OpenInNewOutlinedIcon />
+              <a href="https://quad-b-todo-theta.vercel.app/">
+                <OpenInNewOutlinedIcon />
+              </a>
             </div>
             <div className="flex items-center flex-wrap md:flex-nowrap gap-2">
               <p className=" py-0.5 mx-2 px-5 bg-[#1e282e] text-[#95d5fc] text-sm font-bold rounded-sm">
@@ -84,7 +115,10 @@ export default function SectionThree() {
             <img src={Trust} alt="" loading="lazy" className="rounded-t" />
             <div className="flex justify-between mx-2 my-2 items-center">
               <p className="text-xl font-bold">Trust Vibes</p>
-              <OpenInNewOutlinedIcon />
+              <a href="https://trust-vibes.vercel.app/">
+                {" "}
+                <OpenInNewOutlinedIcon />
+              </a>
             </div>
             <div className="flex items-center flex-wrap md:flex-nowrap gap-2">
               <p className=" py-0.5 mx-2 px-5 bg-[#1e282e] text-[#95d5fc] text-sm font-bold rounded-sm">
