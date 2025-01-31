@@ -6,6 +6,7 @@ import { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 import profile from "../assets/me.jpeg";
+import resume from "../assets/inzamamresume_v1.pdf";
 export default function SectionOne() {
   gsap.registerPlugin(ScrollTrigger);
 
@@ -68,10 +69,7 @@ export default function SectionOne() {
           <button className="font-bold sm:mx-5 bg-gray-500 py-3 px-10 rounded-md w-full sm:w-auto mt-5 sm:mt-0 hover:cursor-pointer">
             <span className="flex items-center justify-center text-white">
               <CloudDownloadIcon className="mr-1" />
-              <a
-                href="/inzamamresume_v1.pdf"
-                download="Inzamam_Shaikh_Resume.pdf"
-              >
+              <a href={resume} download="Inzamam_Shaikh_Resume.pdf">
                 Download CV
               </a>
             </span>
