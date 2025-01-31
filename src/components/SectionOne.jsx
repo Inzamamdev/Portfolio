@@ -69,7 +69,7 @@ export default function SectionOne() {
             <span className="flex items-center justify-center text-white">
               <CloudDownloadIcon className="mr-1" />
               <a
-                href="/inzamamresume_v1.pdf"
+                href="/assets/inzamamresume_v1.pdf"
                 download="Inzamam_Shaikh_Resume.pdf"
               >
                 Download CV
@@ -79,11 +79,7 @@ export default function SectionOne() {
         </div>
       </div>
 
-      <img
-        src="../assets/me.jpeg"
-        alt=""
-        className="rounded-full w-96 mx-auto"
-      />
+      <img src="/assets/me.jpeg" alt="" className="rounded-full w-96 mx-auto" />
     </div>
   );
 }
