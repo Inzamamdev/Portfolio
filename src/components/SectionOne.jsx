@@ -80,7 +80,7 @@ export default function SectionOne() {
       </div>
 
       <img
-        src="./assets/me.jpeg"
+        src="../assets/me.jpeg"
         alt=""
         className="rounded-full w-96 mx-auto"
       />
