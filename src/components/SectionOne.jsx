@@ -1,5 +1,4 @@
 import React from "react";
-import profile from "../assets/me.jpeg";
 import ArrowOutwardIcon from "@mui/icons-material/ArrowOutward";
 import CloudDownloadIcon from "@mui/icons-material/CloudDownload";
 import { Typewriter } from "react-simple-typewriter";
@@ -80,7 +79,7 @@ export default function SectionOne() {
         </div>
       </div>
 
-      <img src={profile} alt="" className="rounded-full w-96 mx-auto" />
+      <img src="/assets/me.jpeg" alt="" className="rounded-full w-96 mx-auto" />
     </div>
   );
 }
